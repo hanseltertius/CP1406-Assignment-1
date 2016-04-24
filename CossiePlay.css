@@ -26,13 +26,40 @@
 	font-size: 22px;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-style: normal;
-	font-weight: normal;
+	font-weight: bold;
 	padding-left: 10px;
 	padding-top: 10px;
 	bottom: 1400px;
 	left: 250px;
 	margin: 0;
 	background-color: #00FFDB;
+}
+#SubContent {
+position: relative;
+font-size: 18px;
+font-style: normal;
+font-weight: normal;
+font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+padding-top: 10px;
+padding-left: 10px;
+left: 250px;
+bottom: 1400px;
+width: 1725px;
+height: auto;
+}
+.floatright{
+width: 600px;
+height: 300px;
+float: right;
+padding-bottom: 20px;
+text-align: center;
+}
+.floatleft{
+width: 600px;
+height: 300px;
+float: left;
+padding-bottom: 20px;
+text-align: center;
 }
 #Nav_Bar {
 	position: relative;
@@ -87,12 +114,14 @@ height:600px ;
 	left: 900px;
 	width: 500px;
 	position: absolute;
-	font-size: 18px;
+	font-size: 14px;
 	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-style: normal;
 	font-weight: normal;
 }
 #Subtitle2 a {
 	text-decoration:none;
+	font-size: 16px;
+	font-weight:bold;
 	color:#000000;
 }
