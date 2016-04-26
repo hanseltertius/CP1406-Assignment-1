@@ -48,15 +48,15 @@ width: 1725px;
 height: auto;
 }
 .floatright{
-width: 600px;
-height: 300px;
+width: 400px;
+height: 200px;
 float: right;
 padding-bottom: 20px;
 text-align: center;
 }
 .floatleft{
-width: 600px;
-height: 300px;
+width: 400px;
+height: 200px;
 float: left;
 padding-bottom: 20px;
 text-align: center;
@@ -147,8 +147,31 @@ border: 10px, solid black;
     transition: all 0.3s ease-out;
     width: 270px;
 }
-
 .inputs:focus {
     border-color: #BBB;
     outline: none;
+}
+#button1 {
+	background-color: #C8C8C8;
+	transition-property: background;
+	transition-duration: 0.3s;
+	transition-timing-function: ease;
+	transition-delay: 0;
+	width: 10%;
+	height: 75px;
+	text-align: center;
+	border: outset;
+	margin-top: 10px;
+	font-size:14px;
+	font-style:normal;
+	font-weight:normal;
+}
+
+
+#button1:hover { 
+  background:#EA575B;
+}
+#button1 a{
+text-decoration:none;
+color:black;
 }
