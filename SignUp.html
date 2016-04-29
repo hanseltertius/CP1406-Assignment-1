@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <!-- InstanceBeginEditable name="doctitle" -->
-<title>CossiePlay Template</title>
+<title>Become our member! Sign Up for CossiePlay</title>
 <!-- InstanceEndEditable -->
 <link href="CossiePlay.css" rel="stylesheet" type="text/css">
 <!-- InstanceBeginEditable name="head" -->
@@ -18,7 +18,7 @@
 <!-- InstanceBeginEditable name="Content" -->
 <div id="Container">
 <h1 id="Banner">
-<div id="Bannertext">COSSIEPLAY</div></h1>
+<div id="Bannertext"><a href="index.html">COSSIEPLAY</a></div></h1>
 <h1 id="Nav_Bar"><table width="250" border="1" cellpadding="20">
   <tbody>
     <tr>
@@ -50,11 +50,22 @@ Patrons can register to come to a party by emailing us.
 <img src="Images/Images/we-re-rabbits-1439192-1279x850.jpg" alt="" width="600" height="400" class="floatright"/>
 <input type="text" class="inputs" placeholder="Name" /> 
 <br><br>
-<input type="text" class="inputs" placeholder="Phone Number" /> 
+<input type="tel" class="inputs" size="10" placeholder="Phone Number" /> 
 <br><br> 
-<input type="text" class="inputs" placeholder="How many people are going" />
-<br><br> 
-<input type="text" class="inputs" placeholder="E-mail Address"/></div>
+<form action="demo_form.asp">
+How many people are going?
+<br><select name="How many people are going?">
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+</select>
+</form>
+<br> 
+<input type="email" class="inputs" placeholder="E-mail Address"/>
+<br><br>
+<input type="password" class="inputs" size="25" placeholder="Password"/></div>
 <div id="button1">
       <h1><a href="index.html">SIGN UP</a></h1>
     </div>
@@ -78,7 +89,10 @@ Phone: 07 4771 1234
   <br>E-mail Address: cossieplay@gmail.com.</div>
 <div id="Subtitle2">
 Interested in joining our party? Join Us Here!
-<br> <a href="SignUp.html"> SIGN UP</a></div></div>
+<br><a href="SignUp.html">SIGN UP</a>
+<br>Already a member?
+<br><a href="SignIn.html">SIGN IN </a></div></div>
+</div>
 <!-- InstanceEndEditable -->
 </body>
 <!-- InstanceEnd --></html>
